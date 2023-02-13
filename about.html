@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/main.css">
+
+	<link rel="stylesheet" href="/about.css">
+</head>
+<body>
+	<header id="header"></header>
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="col-3">
+				</div>
+				<div class="col-7">
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item" role="presentation">
+							<button class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="projects-tab" data-bs-toggle="tab" data-bs-target="#projects-tab-pane" type="button" role="tab" aria-controls="projects-tab-pane" aria-selected="false">Projects</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3 d-flex justify-content-center">
+					<div class="my-avatar">
+						<i class="bi bi-person-circle"></i>
+					</div>
+				</div>
+				<div class="col-7">
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade show active" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+							<div>
+								<h1>Profile</h1>
+								<p>My name is Arlan Kuralbayev</p>
+								<span id="my-age">20</span> y.o.
+							</div>
+						</div>
+						<div class="tab-pane fade" id="projects-tab-pane" role="tabpanel" aria-labelledby="projects-tab" tabindex="0">
+							<div>
+								<h1>Projects</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer id="footer"></footer>
+	<script src="/main.js" defer></script>
+</body>
+</html>
