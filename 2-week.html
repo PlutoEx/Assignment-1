@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home</title>
+	<title>2-week</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
@@ -14,11 +14,23 @@
 <body>
 	<header id="header"></header>
 	<main>
-		<my-name class="Home"></my-name>
-		<h1>Home page</h1>
-		<div></div>
+		<div class="container">
+			<my-name class="2-week"></my-name>
+			<h1>2 week Assignment</h1>
+			<div>
+				<button type="button" class="btn btn-primary" id="getId">Get ID</button>
+				<div class="d-inline-block" id="myId"></div>
+			</div>
+			<div style="align-content: stretch; align-items: stretch;">
+				<div id="imgTitle"></div>
+				<div id="imgDate"></div>
+				<div id="imgAlt"></div>
+			</div>
+			<img id="myImg" src="" alt="">
+		</div>
 	</main>
 	<footer id="footer"></footer>
 	<script src="/public/main.js" defer></script>
+    <script src="/public/2-week.js" defer></script>
 </body>
 </html>

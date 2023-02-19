@@ -29,16 +29,16 @@
 }
 
 #scissor{
-    background-image: url("/scissor.png");
+    background-image: url("/public/scissor.png");
     background-size: cover;
 }
 
 #rock{
-    background-image: url("/rock.png");
+    background-image: url("/public/rock.png");
     background-size: cover;
 }
 
 #paper{
-    background-image: url("/paper.png");
+    background-image: url("/public/paper.png");
     background-size: cover;
 }
