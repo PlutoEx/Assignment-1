@@ -8,4 +8,4 @@ Front-End Web Development Course
 <br>
 
     2 week: 
-    Created 
+    Created FetchApi that takes picture by id
