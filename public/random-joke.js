@@ -8,6 +8,7 @@ const imgDate = document.getElementById('imgDate')
 
 function fetchId() {
     const params = new URLSearchParams();
+    console.log(params)
     return fetch('https://fwd.innopolis.app/api/hw2?email=' + email + params.toString()).then(r => r.json());
 }
 
@@ -24,6 +25,6 @@ getIdBtn.addEventListener('click', async function (e) {
     myImg.setAttribute('alt', image.alt)
     imgTitle.textContent = 'Title: ' + image.title
     imgAlt.textContent = 'Alt: ' + image.alt
-    const date = new Date(Date.UTC(image.year, image.month, image.day)).toLocaleDateString();
+    const date = new Date(image.year, parseInt(image.month) - 1, image.day).toLocaleDateString();
     imgDate.textContent = 'Date: ' + date
 });
