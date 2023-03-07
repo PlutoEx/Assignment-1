@@ -107,7 +107,8 @@ function calculateDistance (dirX, dirY){
 }
 
 // Main
-$(window).on("load", function () {
+// document.addEventListener('DOMContentLoaded', function(){
+$(document).ready(function () {
     createStartPlayers()
     let counter = setInterval(function () {
         let papers = document.querySelectorAll('#paper')
